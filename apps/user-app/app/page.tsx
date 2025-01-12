@@ -4,6 +4,8 @@ import { Appbar } from "@repo/ui/appbar";
 import { Button } from "@repo/ui/button";
 import { usePathname, useRouter } from "next/navigation";
 
+
+
 export default function Page(): JSX.Element {
   const session = useSession();
   const router = useRouter();
