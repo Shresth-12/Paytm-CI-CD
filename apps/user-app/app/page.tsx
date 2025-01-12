@@ -8,6 +8,11 @@ export default function Page(): JSX.Element {
   const session = useSession();
   const router = useRouter();
 
+
+
+
+
+  
   if (session.status === "loading") {
     return <div>Loading...</div>;
   }
